@@ -81,8 +81,10 @@ word = "bosslslzzzsisss"
 print(word.replace("s", "d",5))
 (A)boddldlzzzdidss   (B)bosslslzzzsisss  (C)boddldlzzzdiddd  (D)出現錯誤,無法印出
 
+```
 
 # 程式設計題
+
 ```
 for 迴圈(loop)的技巧
 1.使用for 迴圈(loop)計算1+2+3+.....100
