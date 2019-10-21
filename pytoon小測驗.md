@@ -51,6 +51,7 @@ while index < len(names):
 (C)程式執行完後,index最後為2
 (D)如果把條件改成 index > len(names),中index最後為2
 答案:
+
 ```
 註解:字串的replace()有何用途?
 
