@@ -6,31 +6,51 @@ print("abc"+"def")
 ```
 
 ```
-考卷:
-1.print("10*20*(546-542)"))會印出甚麼結果:
-(A)0   (B)90  (C)出現錯誤,無法印出  (D)D)10*20*(546-542)
+1.print("5*2*(17-16)")會印出甚麼結果:
+(A)0   (B)10  (C)出現錯誤,無法印出  (D)5*2*(17-16)
+答案:D ("" < 貼上符號內的算式)
 
-答案是:D
 
-2.printprint("abccc"+"defff")會印出甚麼結果:
-(A)ant   (B)abcccdefff (C)90  (D)出現錯誤,無法印出
-答案是:B
-‵‵
-‵`
-3.print("vvv"+"www")會印出甚麼結果:
-(A)vwvww   (B)vvvwww  (C)vvv"+"www (D)出現錯誤,無法印出
+2.print(7*2*(22-15))會印出甚麼結果:
+(A)0   (B)98  (C)出現錯誤,無法印出  (D)3*2*(17-2)
+答案:B( 直接計算 )
 
-答案是:B
 
-4.print("def"+"ghi")會印出甚麼結果:
-(A)出現錯誤,無法印出   (B)abc+def  (C)abc""+""def  (D)defghi
-```
-答案是:defghi
-```
-word = "art"
-print(word.replace("X", "mmmmmmm"))
-```
-答案是:art
+3.print("hello""+""olleh")會印出甚麼結果:
+(A)出現錯誤,無法印出   (B)hello+olleh  (C)hello""+""olleh  (D)helloolleh
+答案:B 
+
+
+4.print("he"+"llo")會印出甚麼結果:
+(A)出現錯誤,無法印出   (B)he+llo  (C)he""+""llo  (D)hello
+答案:D
+
+5.底下程式執行後結果為何?
+word = "arttarataaa"
+print(word.replace("a", "z",3))
+(A)出現錯誤,無法印出   (B)arttarataaa  (C)zrttzrztaaa (D)zrttzrztzzz
+答案:C ( 前3個a取代 )
+
+6.底下程式執行後結果為何?
+word = "arttarataaa"
+print(word.replace("a", "z"))
+(A)出現錯誤,無法印出   (B)arttarataaa  (C)zrttzrztaaa (D)zrttzrztzzz
+答案:D
+
+7根據底下程式,下列敘述何者為非?[複選題]
+ames = ['龍', '聖']
+index = 0
+
+while index < len(names):
+    name = names[index]
+    print(name)
+    index = index + 1
+    
+(A)len(names)=2  
+(B)names[1]是 龍 
+(C)程式執行完後,index最後為2
+(D)如果把條件改成 index > len(names),中index最後為2
+答案:
 ```
 註解:字串的replace()有何用途?
 
