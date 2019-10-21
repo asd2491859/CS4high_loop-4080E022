@@ -34,7 +34,7 @@ print(word.replace("a", "z",3))
 6.底下程式執行後結果為何?
 word = "arttarataaa"
 print(word.replace("a", "z"))
-(A)出現錯誤,無法印出   (B)arttarataaa  (C)zrttzrztaaa (D)zrttzrztzzz
+(A)出現錯誤,無法印出   (B)arttarataaa  (C)zrttzrztaaa (D)zrttzrztzzz  
 答案:D
 
 7根據底下程式,下列敘述何者為非?[複選題]
